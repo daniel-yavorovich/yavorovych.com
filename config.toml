@@ -1,0 +1,72 @@
+## Basic Configuration
+
+baseurl = "https://yavorovych.com"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Daniel Yavorovych"
+title = "Daniel Yavorovych"
+
+theme = "goa"
+
+## Hugo Built-in Features
+disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+googleAnalytics = "G-WGS2K7KYQW"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Daniel Yavorovych"
+intro = "Ukrainian. Human. Earthling."
+#description = "Description"
+authorimage = "avatar.png"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Daniel Yavorovych"
+keywords = "cloud acrhitect, devops, yavorovych"
+
+## Social Accounts
+[params.social]
+github = "daniel-yavorovich"
+instagram = "danielyavorovich"
+linkedin = "daniel-yavorovych"
+twitter = "yavorovych_da"
+facebook = "yavorovych"
+reddit = "DANIEL_YAVOROVYCH"
+youtube = "UCHh0gzniJFPcMcXaosNWXGQ"
+telegram = "@yavorovych"
+email = "daniel@yavorovych.com"
+#pgp = "<key_fingerprint>"
+
+## Extras
+[params.extra]
+copyright = "Love is everywhere"
+poweredby = false
+highlightjs = true
+socialmarkup = true
+toc = true
+displayrssicon = false
+
+## Main Menu
+[[menu.main]]
+    name = "Blog"
+    identifier = "blog"
+    weight = 1
+    url = "/blog/"
+[[menu.main]]
+    name = "Dysnix"
+    weight = 2
+    url = "https://dysnix.com"
+[[menu.main]]
+    name = "Dysnix Charity fund"
+    weight = 3
+    url = "https://www.dysnix.org/"
+
+ 
