@@ -55,17 +55,17 @@ toc = true
 displayrssicon = false
 
 ## Main Menu
-[[menu.main]]
-    name = "Blog"
-    identifier = "blog"
-    weight = 1
-    url = "/blog/"
+#[[menu.main]]
+#    name = "Blog"
+#    identifier = "blog"
+#    weight = 1
+#    url = "/blog/"
 [[menu.main]]
     name = "Dysnix"
     weight = 2
-    url = "https://dysnix.com"
+    url = "https://dysnix.com/"
 [[menu.main]]
-    name = "Dysnix Charity fund"
+    name = "Charity fund"
     weight = 3
     url = "https://www.dysnix.org/"
 
