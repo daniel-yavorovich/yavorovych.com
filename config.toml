@@ -68,5 +68,9 @@ displayrssicon = false
     name = "Charity fund"
     weight = 3
     url = "https://www.dysnix.org/"
+[[menu.main]]
+    name = "Schedule a call"
+    weight = 4
+    url = "https://calendly.com/daniel-dysnix"
 
  
